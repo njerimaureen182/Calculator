@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    flex: 0 0 95%;
+}
+.screen{
+    width: 100%;
+    font-size: 7rem;
+    background: rgb(41, 41, 56);
+    border: none;
+    color: wheat;
+    outline: none;
+    padding: 0.5rem;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.5s linear;
+}
+button{
+    flex: 0 0 25%;
+    border: 1px solid rgb(41, 41, 56);
+    padding: 0.8rem;
+    outline: none;
+    transition: all 2s ease;
+    cursor: pointer;
+    font-size: 4rem;
+}
+button:hover{
+    background: #fff567;
+}
+.btn-yellow{
+    background: rgb(245, 145, 62);
+    color: teal;
+}
+.btn-grey{
+    background: rgb(224, 224, 224);
+}
+.btn-equals{
+    background: green;
+}
+.btn-clear{
+    background: red;
+}
+.btn-del{
+    background: palevioletred;
+}
